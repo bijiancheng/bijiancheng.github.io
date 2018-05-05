@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Links</title>
+</head>
+<body>
+<p><a href="javascript:popUp('http://www.baidu.com/');">baidu</a></p>
+<p><a href="#" onclick="popUp('http://www.baidu.com/');return false;">baidu1</a></p>
+<p><a href="http://www.baidu.com/" onclick="popUp(this.getAttribute('href')); return false;">baidu2</a></p>
+<p><a href="http://www.baidu.com/" onclick="popUp(this.href); return false;">baidu3</a></p>
+<p><a href="http://www.baidu.com/" class="popup">baidu4</a></p>
+<script src="scripts/open.js"></script>
+</body>
+</html>
